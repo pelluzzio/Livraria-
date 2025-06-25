@@ -1,3 +1,6 @@
+CREATE DATABASE biblioteca;
+USE biblioteca;
+
 -- Tabela de Usuários (ampliada para dados acadêmicos)
 CREATE TABLE Usuarios (
     usuario_id INT PRIMARY KEY AUTO_INCREMENT,
