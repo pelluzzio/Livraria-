@@ -1,6 +1,3 @@
-CREATE DATABASE biblioteca;
-USE biblioteca;
-
 -- Tabela de Usuários (ampliada para dados acadêmicos)
 CREATE TABLE Usuarios (
     usuario_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -325,8 +322,3 @@ GROUP BY
     DATE_FORMAT(data_pedido, '%Y-%m')
 ORDER BY 
     mes DESC;
-    
-    
-    
-    
- 
